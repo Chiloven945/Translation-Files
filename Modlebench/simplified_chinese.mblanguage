@@ -1,0 +1,699 @@
+{
+  "description": "Modelbench language file. Copy and rename this to begin creating your own translation.",
+  "file/": {
+    "language": "简体中文",
+    "locale": "zh-CN",
+    "translator": "Community",
+    "forversion": "1.1.5",
+    "lastchange": "2023.03.11"
+  },
+  "startup/": {
+    "modeldetected": "检测到未保存的模型",
+    "modeldetecteddesc": "在上一个Modelbecch会话中找到了一个未保存模型的备份。是否加载？",
+    "recovermodel": "还原...",
+    "browse": "浏览...",
+    "newmodel": "新建",
+    "recentmodels": "最近",
+    "startfromscratch": "从头开始...",
+    "loadatemplate": "加载模板...",
+    "version": "版本 %1"
+  },
+  "colorpicker/": {
+    "r": "R",
+    "g": "G",
+    "b": "B",
+    "h": "H",
+    "s": "S",
+    "v": "V",
+    "hex": "Hex",
+    "rgb": "RGB",
+    "hsv": "HSV"
+  },
+  "recent/": {
+    "lastopened": "上次打开时间：",
+    "lastopened/": {
+      "recently": "上次打开时间：最近",
+      "minutes": "上次打开时间：%1分钟前",
+      "hours": "上次打开时间：%1小时前",
+      "yesterday": "上次打开时间：昨天",
+      "days": "上次打开时间：%1天前",
+      "lastweek": "上次打开时间：一周前",
+      "date": "上次打开时间：%1.%2.%3",
+      "never": "上次打开时间：从未打开过",
+      "future": "上次打开时间：未来"
+    },
+    "none": "您最近打开的模型将显示在此处！",
+    "sortascendingtip": "升序排列",
+    "sortdescendingtip": "降序排列",
+    "pintip": "置顶",
+    "removetip": "删除",
+    "filename": "文件名称",
+    "models": "最近"
+  },
+  "error/": {
+    "fileunreadable": "无法正确读取该文件。请查看日志了解更多详细信息。如果备份文件(.bbbackup)可用请尝试加载它 。(更改文件资源管理器中的文件类型筛选器)",
+    "fileunreadablecaption": "无法读取文件"
+  },
+  "question/": {
+    "confirmexit": "退出前是否保存在 %1 中所做的更改？",
+    "confirmnew": "创建新模型之前是否保存在 %1 中所做的更改？",
+    "confirmopen": "打开其他模型之前是否保存在 %1 中所做的更改？",
+    "confirmsaveas": "另存为新模型之前是否保存在 %1 中所做的更改？",
+    "confirmsaveexit": "当前模型尚未保存。退出之前是否保存当前模型？",
+    "confirmsavenew": "当前模型尚未保存。创建新模型之前是否保存当前模型？",
+    "confirmsaveopen": "当前模型尚未保存。打开其他模型之前是否保存当前模型？",
+    "replace": "名为 ”%1“ 的纹理已经存在。是否用新的纹理替换它？",
+    "restoredefaults": "重置所有按键绑定设置？"
+  },
+  "filedialog/": {
+    "open/": {
+      "image": "图像",
+      "imagecaption": "打开图像",
+      "model": "Mine-imator 模型",
+      "modelbackup": "Modelbench 模型备份",
+      "modelcaption": "打开 Mine-imator 模型",
+      "modeltemplate": "Modelbench 模板",
+      "modeltemplatecaption": "打开 Modelbench 模板"
+    },
+    "save/": {
+      "model": "Mine-imator 模型",
+      "modelcaption": "保存 Mine-imator 模型",
+      "image": "图像",
+      "imagecaption": "保存图像",
+      "obj": "波前",
+      "objcaption": "保存 .obj 文件"
+    },
+    "import/": {
+      "modelcaption": "导入 Mine-imator 模型"
+    }
+  },
+  "uveditor/": {
+    "front": "前",
+    "back": "后",
+    "left": "左",
+    "right": "右",
+    "top": "顶",
+    "bottom": "底"
+  },
+  "snackbar/": {
+    "newupdate": "更新可用！",
+    "newupdatedesc": "%1 可供下载。",
+    "savemodel": "模型保存成功！",
+    "saveimage": "图像保存成功！",
+    "openimage": "打开图像",
+    "button/": {
+      "download": "立即下载",
+      "update": "更新",
+      "remindmelater": "稍后"
+    }
+  },
+  "contextmenu/": {
+    "keycontrolreset": "重置按键绑定",
+    "copylink": "复制链接",
+    "scalecombine": "同时调整XYZ",
+    "scaleseperate": "单独调整XYZ",
+    "centeraxis": "中心枢轴",
+    "resetview": "重置视图",
+    "move": "移动到...",
+    "left": "左",
+    "right": "右",
+    "bottom": "下",
+    "top": "上",
+    "value/": {
+      "on": "开",
+      "off": "关",
+      "cut": "剪切值",
+      "copy": "复制值",
+      "paste": "粘贴值",
+      "reset": "重置值"
+    },
+    "group/": {
+      "copy": "复制所有值",
+      "paste": "粘贴所有值",
+      "reset": "重置所有值"
+    },
+    "textbox/": {
+      "cut": "剪切",
+      "copy": "复制",
+      "paste": "粘贴",
+      "selectall": "全选"
+    },
+    "texture/": {
+      "setmain": "设置为主要纹理",
+      "remove": "从模型中删除纹理",
+      "replace": "替换纹理",
+      "refresh": "刷新纹理",
+      "saveuvmap": "保存 UV 贴图"
+    },
+    "element/": {
+      "add": "添加元素...",
+      "rename": "重命名",
+      "duplicate": "复制",
+      "delete": "删除",
+      "expandall": "全部展开",
+      "collapseall": "全部折叠"
+    },
+    "addelement/": {
+      "part": "部分",
+      "block": "块",
+      "plane": "平面",
+      "3dplane": "3D 平面"
+    },
+    "viewport/": {
+      "selectall": "全选"
+    }
+  },
+  "toolbar/": {
+    "modeling": "建模",
+    "preview": "预览",
+    "file": "文件",
+    "file/": {
+      "new": "新建...",
+      "open": "打开",
+      "recent": "最近打开...",
+      "save": "保存",
+      "saveas": "另存为...",
+      "import": "导入...",
+      "exportobj": "导出为 .obj..."
+    },
+    "edit": "编辑",
+    "edit/": {
+      "undo": "撤消",
+      "redo": "重做",
+      "selectall": "全选",
+      "duplicate": "复制元素",
+      "delete": "删除元素",
+      "preferences": "偏好设置..."
+    },
+    "view": "视图",
+    "view/": {
+      "reset": "重置工作摄像头",
+      "shortcutsbar": "显示快捷方式栏",
+      "uveditor": "显示 UV 编辑器"
+    },
+    "help": "帮助",
+    "help/": {
+      "about": "关于 Modelbench...",
+      "report": "报告错误...",
+      "forums": "访问论坛..."
+    }
+  },
+  "tooltip/": {
+    "showoptions": "显示选项",
+    "hideoptions": "隐藏选项",
+    "open": "打开",
+    "close": "关闭",
+    "openmenu": "打开菜单",
+    "closemenu": "关闭菜单",
+    "expand": "展开",
+    "collapse": "折叠",
+    "show": "显示",
+    "hide": "隐藏",
+    "lock": "锁定",
+    "unlock": "解锁",
+    "editshortcut": "编辑按键绑定",
+    "remove": "删除",
+    "pin": "置顶",
+    "shortcut": "按键绑定： %1",
+    "xyz": "X: %1\nY: %2\nZ: %3",
+    "anglexyz": "X: %1°\nY: %2°\nZ: %3°",
+    "resize": "宽度： %1\n长度： %2\n高度： %3",
+    "offset": "偏移: %1",
+    "size": "大小： %1",
+    "undo": "撤销",
+    "redo": "重做",
+    "snapenable": "启用吸附",
+    "snapdisable": "禁用吸附",
+    "overlaysenable": "启用覆盖",
+    "overlaysdisable": "禁用覆盖",
+    "windenable": "启用风",
+    "winddisable": "禁用风",
+    "flatmode": "平滑模式",
+    "shadedmode": "阴影模式",
+    "texturedmode": "纹理模式",
+    "walknav": "切换改变方向及位置",
+    "zoom": "缩放",
+    "pan": "平移",
+    "blockybendingenable": "启用块状弯折",
+    "blockybendingdisable": "禁用块状弯折",
+    "uveditor/": {
+      "hide": "隐藏 UV 编辑器",
+      "show": "显示 UV 编辑器"
+    },
+    "guideshide": "隐藏向导",
+    "guidesshow": "显示向导",
+    "customaccentcolor": "自定义强调颜色",
+    "scenery/": {
+      "overworld_day": "主世界(白天)",
+      "overworld_dusk": "主世界(黄昏)",
+      "overworld_night": "主世界(夜晚)",
+      "desert": "沙漠",
+      "snowy_plains": "积雪的平原",
+      "cave": "洞穴",
+      "underwater": "水下",
+      "the_end": "末地",
+      "nether": "下界",
+      "soulsand_valley": "地狱(灵魂沙峡谷)"
+    },
+    "editkeybind": "编辑按键绑定"
+  },
+  "toolset/": {
+    "add/": {
+      "part": "添加部件",
+      "block": "添加块",
+      "plane": "添加平面",
+      "plane3d": "添加 3D 平面"
+    },
+    "tool/": {
+      "select": "选择工具",
+      "pivot": "轴心工具",
+      "move": "移动工具",
+      "rotate": "旋转工具",
+      "scale": "缩放工具",
+      "transform": "所有变换工具",
+      "bend": "弯折工具",
+      "resize": "尺寸工具"
+    },
+    "snap/": {
+      "size": "大小",
+      "mode": "模式",
+      "mode/": {
+        "absolute": "绝对",
+        "local": "本地"
+      }
+    }
+  },
+  "tab/": {
+    "assets": "资源",
+    "elementeditor": "元素编辑器",
+    "preview": "预览",
+    "recentmodels": "最近",
+    "exportmodel": "导出",
+    "settings": "设置",
+    "about": "关于"
+  },
+  "menu/": {
+    "newmodel": "新建",
+    "newmodeltemplate": "从模板新建...",
+    "openmodel": "打开...",
+    "recentmodels": "最近",
+    "importmodel": "导入...",
+    "exportmodel": "导出为 .obj",
+    "save": "保存",
+    "saveas": "另存为...",
+    "settings": "设置",
+    "about": "关于"
+  },
+  "settingsmenu/": {
+    "snap/": {
+      "move": "移动",
+      "rotate": "旋转",
+      "scale": "大小",
+      "uv": "大小及 UV",
+      "absolute": "绝对吸附",
+      "absolutetip": "将值吸附到网格，而不是相对于当前值。"
+    },
+    "overlays/": {
+      "grid": "网格",
+      "gizmos": "线框",
+      "highlights": "高光",
+      "outlines": "轮廓",
+      "outlineopacity": "轮廓不透明度"
+    },
+    "wind/": {
+      "speed": "风速",
+      "strength": "风强度"
+    },
+    "shading/": {
+      "ao": "环境光遮蔽",
+      "lighting": "光源"
+    }
+  },
+  "key/": {
+    "left": "左方向键",
+    "right": "右方向键",
+    "up": "上方向键",
+    "down": "下方向键",
+    "enter": "Enter",
+    "escape": "Esc",
+    "space": "Space",
+    "shift": "Shift",
+    "leftshift": "左Shift",
+    "rightshift": "右Shift",
+    "alt": "Alt",
+    "leftalt": "左Alt",
+    "rightalt": "右Alt",
+    "control": "Ctrl",
+    "leftcontrol": "左Ctrl",
+    "rightcontrol": "右Ctrl",
+    "backspace": "Backspace",
+    "tab": "Tab",
+    "home": "Home",
+    "end": "End",
+    "delete": "Del",
+    "insert": "Insert",
+    "pageup": "PgUp",
+    "pagedown": "PgDn",
+    "pause": "Pause",
+    "printscreen": "PrtSc"
+  },
+  "modelproperties": "模型属性",
+  "elements": "元素",
+  "textures": "纹理",
+  "transform": "转换",
+  "position": "位置",
+  "pivotoffset": "枢轴偏移量",
+  "rotation": "旋转",
+  "size": "大小",
+  "scale": "比例尺",
+  "bend": "弯折",
+  "material": "材料",
+  "appearance": "个性化",
+  "wind": "风",
+  "mineimator": "Mine-imator",
+  "background": "背景",
+  "render": "渲染",
+  "export": "导出",
+  "general": "常规",
+  "controls": "控制",
+  "interface": "界面",
+  "assets/": {
+    "newmodel": "新的模型",
+    "modelname": "模型名称",
+    "modellocation": "模型位置",
+    "modelnotsaved": "模型尚未保存",
+    "openfolder": "打开文件夹",
+    "savemodel": "保存",
+    "playerskin": "允许 Minecraft 皮肤",
+    "playerskinhelp": "允许在 Mine-imator 中为模型下载皮肤。",
+    "modelscale": "模型大小",
+    "searchelementscaption": "搜索...",
+    "hideshapes": "隐藏形状",
+    "newpart": "新的部分",
+    "newshape": "新的形状",
+    "moveabove": "移动到 %1 上方",
+    "movebelow": "移动到 %1 下方",
+    "parentto": "将 %1 作为父类",
+    "roottexture": "根纹理",
+    "addtexture": "添加纹理",
+    "texturesize": "%1x%2 像素",
+    "texturescale": "比例",
+    "defaulttexture": "默认"
+  },
+  "elementeditor/": {
+    "partname": "部分名称",
+    "shapename": "形状名称",
+    "newpart": "新的部分",
+    "newshape": "新的形状",
+    "position": "位置",
+    "position/": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z"
+    },
+    "rotation": "旋转",
+    "rotation/": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z"
+    },
+    "offset": "轴枢偏移",
+    "offset/": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z"
+    },
+    "size": "大小",
+    "size/": {
+      "w": "宽",
+      "l": "长",
+      "h": "高"
+    },
+    "scale": "比例",
+    "scale/": {
+      "x": "X",
+      "y": "Y",
+      "z": "Z",
+      "xyz": "XYZ"
+    },
+    "bend/": {
+      "lock": "锁定到父级的一半中",
+      "axis": "已启用的轴",
+      "axis/": {
+        "x": "X 轴",
+        "y": "Y 轴",
+        "z": "Z 轴"
+      },
+      "invert": "反转轴",
+      "invert/": {
+        "x": "反转",
+        "y": "反转",
+        "z": "反转"
+      },
+      "range/": {
+        "x": "范围",
+        "x/": {
+          "mininput": "最小值",
+          "maxinput": "最大值"
+        },
+        "y": "范围",
+        "y/": {
+          "mininput": "最小值",
+          "maxinput": "最大值"
+        },
+        "z": "范围",
+        "z/": {
+          "mininput": "最小值",
+          "maxinput": "最大值"
+        }
+      },
+      "angle/": {
+        "x": "默认角度",
+        "y": "默认角度",
+        "z": "默认角度"
+      },
+      "inheritangles": "继承弯折角度",
+      "inheritangleshelp": "在 Mine-imator 中开启此布部分的“继承弯折”。",
+      "offset": "合并偏移量",
+      "endoffset": "合并结束",
+      "customsize": "自定义弯折大小",
+      "customsizehelp": "允许自定义弯折大小。该部件的弯折将忽略程序的弯折风格。",
+      "size": "大小",
+      "part": "部件",
+      "part/": {
+        "right": "右",
+        "left": "左",
+        "front": "前",
+        "back": "后",
+        "upper": "上",
+        "lower": "下"
+      }
+    },
+    "texture": "纹理",
+    "inherittexture": "继承纹理",
+    "inheritcolor": "继承父颜色",
+    "inheritcolorhelp": "继承颜色选项，包括不透明度和反射。",
+    "blendcolor": "混合颜色",
+    "mixcolor": "混合颜色",
+    "mixamount": "混合数量",
+    "opacity": "不透明度",
+    "brightness": "反射",
+    "inflate": "膨胀率",
+    "bend": "弯折",
+    "mirrortexture": "镜像纹理",
+    "invert": "倒转",
+    "facecamera": "面朝摄像机",
+    "hover": "悬停",
+    "extrude": "扩展",
+    "hidefront": "隐藏前端",
+    "hideback": "隐藏后端",
+    "windaxis": "风轴",
+    "windaxis/": {
+      "none": "无",
+      "all": "全部",
+      "y": "Y",
+      "z": "Z"
+    },
+    "windminimumy": "最小Y",
+    "windminimumz": "最小Z",
+    "windminimum": "最小值",
+    "windmaximumy": "最大 Y",
+    "windmaximumz": "最大 Z",
+    "windmaximum": "最大值",
+    "depth": "渲染深度",
+    "openpositiontab": "打开位置选项卡",
+    "openpositiontabhelp": "在 Mine-imator 中自动打开该部件的位置标签。"
+  },
+  "preview/": {
+    "scenery": "场景",
+    "lightrotation": "光旋转",
+    "lightrange": "光范围",
+    "ao": "环境光遮蔽",
+    "shadows": "阴影",
+    "aa": "抗锯齿",
+    "exportsize": "导出大小",
+    "exportsize/": {
+      "256": "256像素",
+      "512": "512像素",
+      "1024": "1024像素"
+    },
+    "includebackground": "包含背景",
+    "exportimage": "导出图像"
+  },
+  "openmodel/": {
+    "recentmodels": "最近",
+    "browse": "浏览..."
+  },
+  "export/": {
+    "disclaimer": "不支持混合颜色、混合颜色、不透明性、亮度、反转、面部相机、悬停、隐藏前台、隐藏后台、风和渲染深度设置！",
+    "disclaimer3dplanes": "大型3D平面将导致导出时间增加，Modelbecch在某些时间段将没有反应。",
+    "selectiononly": "仅选择",
+    "includehidden": "包含隐藏元素",
+    "unparentparts": "非父部分",
+    "combinelocked": "合并已锁定的元素",
+    "unparentpartshelp": "保存部分时没有他们的父级分区。用于在其他软件中进行操作。",
+    "mode": "导出模式",
+    "mode/": {
+      "combineall": "单个网格",
+      "seperateparts": "将部分作为对象",
+      "seperateshapes": "将形状作为对象"
+    },
+    "obj": "导出 .obj",
+    "stage/": {
+      "total": "导出OBJ模型...",
+      "done": "(%1% 已完成)",
+      "generation": "生成形状...",
+      "compile": "编译顶点数据...",
+      "face": "创建面数据..."
+    }
+  },
+  "settings/": {
+    "fps": "FPS",
+    "fps30": "30",
+    "fps60": "60",
+    "featureset": "功能设置",
+    "featuresetmimodel": "Mine-imator 模型",
+    "featuresetobj": "波浪前端OBJ",
+    "backupmodels": "备份模型",
+    "backupmodelsminutes": "备份相隔时间",
+    "backupmodelsamount": "备份最大数量",
+    "slowgeneration": "慢形状生成",
+    "slowgenerationhelp": "更新形状较慢。在编辑复杂模型时有助于提高性能。",
+    "refreshtextures": "恢复焦点时刷新纹理",
+    "refreshtextureshelp": "当窗口重新被定为焦点时，自动刷新所有模型纹理。",
+    "adjustpivotresize": "调整缩放时调整",
+    "adjustpivotresizehelp": "基于 UV 编辑器中的大小调整形状键。",
+    "controlskeybinds": "按键绑定",
+    "controlsfile": "文件",
+    "controlsediting": "编辑",
+    "controlstools": "工具",
+    "controlscamera": "摄像机",
+    "key/": {
+      "model/": {
+        "new": "新建",
+        "newtemplate": "从模板新建",
+        "open": "打开",
+        "save": "保存",
+        "saveas": "另存为",
+        "import": "导入"
+      },
+      "undo": "撤销",
+      "redo": "重做",
+      "rename": "重命名",
+      "delete": "删除",
+      "duplicate": "复制",
+      "select": "全选",
+      "uveditor": "切换 UV 编辑器",
+      "tool/": {
+        "select": "选择工具",
+        "pivot": "轴心工具",
+        "move": "移动工具",
+        "rotate": "旋转工具",
+        "scale": "缩放工具",
+        "transform": "所有变换工具",
+        "bend": "弯折工具",
+        "resize": "尺寸工具"
+      },
+      "snap": "切换吸附",
+      "cam/": {
+        "walk": "更改朝向及方位",
+        "forward": "向前",
+        "back": "向后",
+        "left": "向左",
+        "right": "向右",
+        "ascend": "向上",
+        "descend": "向下",
+        "reset": "重置",
+        "fast": "加速",
+        "slow": "减速"
+      }
+    },
+    "theme": "主题",
+    "theme/": {
+      "light": "浅色",
+      "dark": "深色",
+      "darker": "黑色"
+    },
+    "accentcolor": "主题色",
+    "language": "语言",
+    "openlanguagefolder": "打开文件夹",
+    "zisup": "空间直角坐标系式XYZ轴",
+    "sharedtextureuvs": "显示共享纹理UV",
+    "sharedtextureuvshelp": "显示在UV编辑器中共享纹理的形状。",
+    "reducedmotion": "减少动画",
+    "restoredefaults": "恢复默认值",
+    "looksensitivity": "视角灵敏度",
+    "viewportmousecontrols": "视窗鼠标控制",
+    "viewportmousecontrolsleft": "左键",
+    "viewportmousecontrolsmiddle": "中键"
+  },
+  "about/": {
+    "version": "版本 %1",
+    "releasedate": "，于 %1 发布，Chiloven945汉化于2023.03.20",
+    "forversion": "用于 %1",
+    "credits": "制作组",
+    "development": "开发者：",
+    "uibranding": "UI 及 LOGO：",
+    "specialthanks": "特别鸣谢：",
+    "betatesting": "测试人员："
+  },
+  "shortcut/": {
+    "select": "选择",
+    "selectadd": "选择(添加)",
+    "selectshape": "选择形状",
+    "deselect": "取消选择",
+    "groupselect": "组选择",
+    "moveselection": "移动选择",
+    "orbit": "轨迹视图",
+    "pan": "平移视图",
+    "walk": "更改朝向及方位",
+    "zoom": "缩放",
+    "transform": "变换",
+    "transformslower": "变换(低)",
+    "snap": "吸附",
+    "reset": "重置",
+    "resizearea": "调整区域大小",
+    "movetab": "移动标签",
+    "resizeaxis": "调整坐标轴",
+    "contextmenu/": {
+      "viewport": "视图上下文菜单",
+      "element": "元素上下文菜单",
+      "texture": "纹理上下文菜单",
+      "uveditor": "UV 编辑器上下文菜单"
+    },
+    "uveditor/": {
+      "edituvs": "编辑 UV",
+      "editlength": "编辑长度",
+      "editwidthheight": "编辑宽度及高度",
+      "boxuvs": "设置框 UV"
+    },
+    "forward": "向前",
+    "back": "向后",
+    "left": "向左",
+    "right": "向右",
+    "ascend": "向上",
+    "descend": "向下",
+    "faster": "加速",
+    "slower": "减速"
+  }
+}
