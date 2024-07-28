@@ -1,0 +1,377 @@
+#shaders/lang/zh_CN.lang
+
+#Profiles
+profile.POTATO=§4土豆§r
+profile.LOW=§e低§r
+profile.MEDIUM=§a中§r
+profile.HIGH=§b高 (默认)§r
+profile.VERYHIGH=§9非常高§r
+profile.ULTRA=§d极佳！§r
+profile.comment=着色器配置文件以最优化的视觉逼真度与性能比率更改表现设置. §e[*]§r建议您使用这些预设而不是自己去调整, 除非您知道自己在做什么. §e[*]§r所有受影响的设置都可以在 “主要表现设置” 菜单中找到. 
+
+#CMPR
+option.CMPR=Complementary
+option.CMPR.comment=§eChiloven945汉化§r. Complementary Reimagined 是拥有爱与关怀的创造物, 旨在以最佳方式补充独特的Minecraft体验. 希望您能与我同样享受我在开发 Complementary Reimagined 的时光. 请随时加入这里可爱互助的社区: www.complementary.dev/discord
+value.CMPR.0=§bReimagined§r
+
+#Style
+option.SHADER_STYLE=视觉样式
+option.SHADER_STYLE.comment=调整着色器包的默认视觉样式. §bReimagined§r: 保留《我的世界》独特的视觉元素, 并在此基础上进行补充;. §dFantasy§r: 用半现实主义幻想风格重新制作《我的世界》的视觉效果. §e[*]§r以下设置受影响: 水样式、云样式、天体样式、天体角度、极光样式.
+value.SHADER_STYLE.1=§bReimagined样式§r
+value.SHADER_STYLE.4=§dFantasy样式§r
+
+#Screens
+screen.PERFORMANCE_SETTINGS=主要表现设置...
+screen.PERFORMANCE_SETTINGS.comment=与表现直接相关的设置, 并由不同的着色器配置文件更改. 
+
+screen.ATMOSPHERE_SETTINGS=大气...
+screen.ATMOSPHERE_SETTINGS.comment=有关大气的设置.
+
+screen.CLOUD_SETTINGS=云层...
+screen.CLOUD_SETTINGS.comment=有关云层的设置.
+
+screen.FOG_SETTINGS=雾设置...
+screen.FOG_SETTINGS.comment=有关雾的设置.
+
+screen.CAMERA_SETTINGS=摄像机...
+screen.CAMERA_SETTINGS.comment=有关视角或摄像机的设置.
+
+screen.TONEMAP_SETTINGS=色彩平衡...
+screen.TONEMAP_SETTINGS.comment=调整视觉效果颜色平衡的设置. 
+
+screen.MATERIAL_SETTINGS=材质...
+screen.MATERIAL_SETTINGS.comment=有关《我的世界》材质的设置.
+
+screen.IPBR_SETTINGS=集成PBR...
+screen.IPBR_SETTINGS.comment=有关集成PBR功能的设置.
+
+screen.CUSTOM_PBR_SETTINGS=SEUSPBR及labPBR...
+screen.CUSTOM_PBR_SETTINGS.comment=有关SEUSPBR及labPBR的设置. 
+
+screen.LIGHTING_SETTINGS=光...
+screen.LIGHTING_SETTINGS.comment=有关光的设置.
+
+screen.WAVING_SETTINGS=波动方块
+screen.WAVING_SETTINGS.comment=有关波动方块的设置.
+
+screen.OTHER_SETTINGS=其他...
+screen.OTHER_SETTINGS.comment=不在其他任何类别的设置.
+
+#Settings
+option.RP_MODE=资源包支持
+option.RP_MODE.comment=更改许多内部计算, 以确定如何渲染不同的方块和材质. §b集成PBR+§r: 计算PBR效果和额外效果, 建议在无存在任何资源包的情况下使用;. §a基础§r: 无PBR效果和额外效果;. §eSEUSPBR及labPBR§r: 需要安装对应PBR的资源包.
+value.RP_MODE.0=§a基础§r
+value.RP_MODE.1=§b集成PBR+§r
+value.RP_MODE.2=§eSEUSPBR (需要资源包)§r
+value.RP_MODE.3=§elabPBR (需要资源包)§r
+
+option.WATER_QUALITY=水质量
+option.WATER_QUALITY.comment=调整水的视觉质量. §a中§r: 默认值. §e低§r: 无边缘气泡, 透明值质量降低, 无变化颜色强度, 无表面阴影.
+value.WATER_QUALITY.1=§e低§r
+value.WATER_QUALITY.2=§a中§r
+
+option.REFLECTION_QUALITY=反射质量
+option.REFLECTION_QUALITY.comment=调整反射的视觉质量. §b高§r: 基于所有方块材质的反射 (资源包支持必须设置为“基础”以外). §a中§r: 水和半透明物体的反射. §4土豆 §e[*]§r: 用更快的方法进行水和半透明物体的反射计算, 在某些情况下可能出现问题. §c关§r: 无反射.
+value.REFLECTION_QUALITY.0=§c关§r
+value.REFLECTION_QUALITY.1=§4土豆§e[*]§r
+value.REFLECTION_QUALITY.2=§a中§r
+value.REFLECTION_QUALITY.3=§b高§r
+
+option.REALTIME_SHADOWS=实时阴影
+option.REALTIME_SHADOWS.comment=启用根据地形和天体角度移动的传统阴影. §e[*]§r 禁用此选项将导致光线束不工作, 并将阻止其他阴影选项执行任何操作. 
+value.REALTIME_SHADOWS.true=§b开§r
+value.REALTIME_SHADOWS.false=§c关§r
+
+option.SHADOW_QUALITY=阴影采样质量
+option.SHADOW_QUALITY.comment=调整阴影的质量. 每一个级别都进一步减少了阴影的噪点, 低于§b高§r的选项可以优化树叶上的阴影. 
+value.SHADOW_QUALITY.1=§e低§r
+value.SHADOW_QUALITY.2=§a中§r§r
+value.SHADOW_QUALITY.3=§b高§r
+value.SHADOW_QUALITY.4=§9非常高§r
+value.SHADOW_QUALITY.5=§d极佳！§r
+
+option.LIGHTSHAFT_QUALITY=光线束质量
+option.LIGHTSHAFT_QUALITY.comment=调整光线束的质量. 每一个级别都进一步减少了光线束的噪点. 
+value.LIGHTSHAFT_QUALITY.0=§c关§r
+value.LIGHTSHAFT_QUALITY.1=§e低§r
+value.LIGHTSHAFT_QUALITY.2=§a中§r
+value.LIGHTSHAFT_QUALITY.3=§b高§r
+value.LIGHTSHAFT_QUALITY.4=§9非常高§r
+
+option.shadowDistance=阴影渲染距离
+option.shadowDistance.comment=调整玩家可以看见的实时阴影距离. §e[*]§r 这个值受限于“渲染距离”的设定值. §c[-]§r 较低的值可能会导致光线束过度泄露.
+value.shadowDistance.64.0=§e4区块 §c[-]§r
+value.shadowDistance.80.0=§e5区块 §c[-]§r
+value.shadowDistance.96.0=§e6区块 §c[-]§r
+value.shadowDistance.112.0=§e7区块 §c[-]§r
+value.shadowDistance.128.0=§a8区块§r
+value.shadowDistance.160.0=§a10区块§r
+value.shadowDistance.192.0=§b12区块§r
+value.shadowDistance.224.0=§b14区块§r
+value.shadowDistance.256.0=§b16区块§r
+value.shadowDistance.320.0=§d20区块§r
+value.shadowDistance.384.0=§d24区块§r
+value.shadowDistance.512.0=§d32区块§r
+value.shadowDistance.768.0=§d48区块§r
+value.shadowDistance.1024.0=§d64区块§r
+
+option.ENTITY_SHADOWS=实体阴影
+option.ENTITY_SHADOWS.comment=允许实体和方块实体投射阴影.
+value.ENTITY_SHADOWS.true=§d开§r
+value.ENTITY_SHADOWS.false=§e关§r
+
+option.SSAO=SSAO
+option.SSAO.comment=启用屏幕空间环境光遮蔽 (SSAO), 将额外的环境光阴影添加到场景的边缘.
+
+option.BORDER_FOG=边界雾
+option.BORDER_FOG.comment=加载世界边缘时的浓雾, 用于隐藏未加载区块的边界. §e[*]§r 当渲染距离小于8个区块时, 建议禁用 “边界雾” .
+
+option.ATM_FOG_MULT=大气雾
+option.ATM_FOG_MULT.comment=调整基于海拔的大气雾强度. 
+value.ATM_FOG_MULT.0.50=非常微弱
+value.ATM_FOG_MULT.0.65=微弱
+value.ATM_FOG_MULT.0.80=正常
+value.ATM_FOG_MULT.0.95=强烈
+
+option.CAVE_FOG=洞穴雾
+option.CAVE_FOG.comment=在地底深处区域启用额外的雾效果. 
+
+option.LIGHTSHAFT_BEHAVIOUR=光线束模式
+option.LIGHTSHAFT_BEHAVIOUR.comment=调整光线束的行为. §a[+]§r 场景感知光线束自动在默认模式和极限模式之间转换, 以提供最佳效果. §c[-]§r 正常游玩情况下不推荐极限模式.
+value.LIGHTSHAFT_BEHAVIOUR.1=场景感知 §a[+]§r
+value.LIGHTSHAFT_BEHAVIOUR.2=默认
+value.LIGHTSHAFT_BEHAVIOUR.3=极限 §c[-]§r
+
+option.CLOUD_STYLE_DEFINE=云层
+option.CLOUD_STYLE_DEFINE.comment=调整云层的样式.
+value.CLOUD_STYLE_DEFINE.-1=默认
+value.CLOUD_STYLE_DEFINE.0=§c关§r
+value.CLOUD_STYLE_DEFINE.1=Reimagined
+value.CLOUD_STYLE_DEFINE.2=二次Reimagined
+value.CLOUD_STYLE_DEFINE.3=Fantasy
+
+option.CLOUD_SHADOWS=云层阴影
+option.CLOUD_SHADOWS.comment=启用从云投射的阴影.
+
+option.CLOUD_HIGH_QUALITY=高质量云层
+option.CLOUD_HIGH_QUALITY.comment=减少噪点并提高 “Reimagined” 云层模式的完整性. §c[-]§r 此选项可能会影响性能, 尤其是使用双层云时.
+value.CLOUD_HIGH_QUALITY.1=关
+value.CLOUD_HIGH_QUALITY.2=开 §c[-]§r
+
+option.CLOUD_ALT1=云层高度
+option.CLOUD_ALT1.comment=调整云层位于世界的高度.
+
+option.CLOUD_ALT2=第二云层高度
+option.CLOUD_ALT2.comment=调整第二云层位于世界的高度. §e[*]§r 如果未启用 “第二云层” 选项, 此设置将不会执行任何操作.
+
+option.T_EXPOSURE=色调图曝光
+option.T_EXPOSURE.comment=调整图像的整体亮度.
+
+option.TM_WHITE_CURVE=色调图白色曲线
+option.TM_WHITE_CURVE.comment=调整颜色达到全白的容易程度.
+
+option.T_LOWER_CURVE=色调图暗曲线
+option.T_LOWER_CURVE.comment=调整较暗颜色的对比度.
+
+option.T_UPPER_CURVE=色调图亮曲线
+option.T_UPPER_CURVE.comment=调整较亮颜色的对比度.
+
+option.T_SATURATION=饱和度
+option.T_SATURATION.comment=调整图像的整体饱和度色彩.
+
+option.T_VIBRANCE=自然饱和度
+option.T_VIBRANCE.comment=调整图像的色彩, 但已经被赋予颜色的像素受影响较小.
+
+option.WATER_STYLE_DEFINE=水样式
+option.WATER_STYLE_DEFINE.comment=调整水的样式. §c[-]§r 水波会严重影响性能.
+value.WATER_STYLE_DEFINE.-1=默认
+value.WATER_STYLE_DEFINE.1=Reimagined
+value.WATER_STYLE_DEFINE.2=Reimagined及水波
+value.WATER_STYLE_DEFINE.3=Fantasy
+
+option.SUN_ANGLE=天体角度
+option.SUN_ANGLE.comment=调整中午或午夜时天体相对于世界的角度. §a[+]§r Reimagined的照明模型是专门设计的, 以使当天体角度为0时与其他角度一样工作.
+value.SUN_ANGLE.-1=默认
+value.SUN_ANGLE.0=0 §a[+]§r
+value.SUN_ANGLE.-20=-20
+value.SUN_ANGLE.-30=-30
+value.SUN_ANGLE.-40=-40
+
+option.SUN_MOON_STYLE_DEFINE=天体样式
+option.SUN_MOON_STYLE_DEFINE.comment=调整天体的样式. §e[*]§r 由于天体和天空盒差异的限制, 此设置可能与某些资源包交互不正确.
+value.SUN_MOON_STYLE_DEFINE.-1=默认
+value.SUN_MOON_STYLE_DEFINE.1=Reimagined
+value.SUN_MOON_STYLE_DEFINE.2=Fantasy
+
+option.SUN_MOON_HORIZON=天体地平线
+option.SUN_MOON_HORIZON.comment=防止天体出现在地平线以下.
+
+option.NIGHT_STAR_AMOUNT=夜晚星星数量
+option.NIGHT_STAR_AMOUNT.comment=调整夜晚出现星星的数量.
+value.NIGHT_STAR_AMOUNT.2=中
+value.NIGHT_STAR_AMOUNT.3=高
+
+option.AURORA_STYLE_DEFINE=极光样式
+option.AURORA_STYLE_DEFINE.comment=确定夜空中出现的极光样式.
+value.AURORA_STYLE_DEFINE.-1=默认
+value.AURORA_STYLE_DEFINE.0=§c关§r
+value.AURORA_STYLE_DEFINE.1=Reimagined
+value.AURORA_STYLE_DEFINE.2=Fantasy
+
+option.AURORA_CONDITION=极光
+option.AURORA_CONDITION.comment=确定极光出现的条件.
+value.AURORA_CONDITION.0=无条件 (关)
+value.AURORA_CONDITION.1=满月
+value.AURORA_CONDITION.2=降雪生物群系
+value.AURORA_CONDITION.3=满月时降雪生物群系
+value.AURORA_CONDITION.4=满月或降雪生物群系
+
+option.PIXEL_SHADOW=像素化阴影
+option.PIXEL_SHADOW.comment=调整以网格化世界坐标的大小以使阴影像素化. §e[*]§r 此设置不影响性能.
+value.PIXEL_SHADOW.0=关
+value.PIXEL_SHADOW.8=8x8 §e[*]§r
+value.PIXEL_SHADOW.16=16x16 §e[*]§r
+value.PIXEL_SHADOW.32=32x32 §e[*]§r
+value.PIXEL_SHADOW.64=64x64 §e[*]§r
+value.PIXEL_SHADOW.128=128x128 §e[*]§r
+
+option.BLOOM_STRENGTH=泛光强度
+option.BLOOM_STRENGTH.comment=调整明亮事物的发光强度, 以及雨水和洞穴湿度带来的泛光. §c[-]§r 过多的开花会导致图像变得比预期更亮, 尤其是在潮湿 (过多反射折射) 的条件下.
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+value.BLOOM_STRENGTH.0.15=80% §c[-]§r
+value.BLOOM_STRENGTH.0.16=85% §c[-]§r
+value.BLOOM_STRENGTH.0.17=90% §c[-]§r
+value.BLOOM_STRENGTH.0.18=95% §c[-]§r
+value.BLOOM_STRENGTH.0.19=100% §c[-]§r
+
+option.FXAA=抗锯齿
+option.FXAA.comment=启用快速近似抗锯齿 (FXAA), 这基本上是一种产生更平滑图像的效果. §e[*]§r 禁用此选项不会禁用时间抗锯齿 (TAA), 因为许多效果都需要时间抗锯齿才能正常运行.
+
+option.IMAGE_SHARPENING=图像锐化
+option.IMAGE_SHARPENING.comment=使用滤镜使图像更清晰. §c[-]§r 过多的锐化可能会导致视觉伪影, 如锯齿、闪烁、噪点或细微亮度变化.
+value.IMAGE_SHARPENING.6=6 §c[-]§r
+value.IMAGE_SHARPENING.7=7 §c[-]§r
+value.IMAGE_SHARPENING.8=8 §c[-]§r
+value.IMAGE_SHARPENING.9=9 §c[-]§r
+value.IMAGE_SHARPENING.10=10 §c[-]§r
+
+option.MOTION_BLURRING=动态模糊
+option.MOTION_BLURRING.comment=移动相机时对图像应用模糊.
+
+option.MOTION_BLURRING_STRENGTH=动态模糊强度
+option.MOTION_BLURRING_STRENGTH.comment=调整动态模糊的强度.
+
+option.VIGNETTE_R=暗角
+option.VIGNETTE_R.comment=在屏幕边缘应用变暗.
+
+option.FANCY_GLASS=改进玻璃
+option.FANCY_GLASS.comment=通过添加半透明层改进普通玻璃. §c[-]§r 在使用Iris作为着色器包加载器时可能会因为钠 (Sodium) 的Bug导致问题. §e[*]§r 资源包支持必须设置为集成PBR+.
+
+option.HAND_SWAYING=手臂摆动
+option.HAND_SWAYING.comment=向玩家手部添加缓慢移动以模拟呼吸动画.
+value.HAND_SWAYING.0=关
+value.HAND_SWAYING.1=微弱
+value.HAND_SWAYING.2=默认
+value.HAND_SWAYING.3=强烈
+
+option.LESS_LAVA_FOG=熔岩内能见度提升
+option.LESS_LAVA_FOG.comment=减少熔岩雾, 提高熔岩内部的能见度.
+
+option.SNOWY_WORLD=雪世界
+option.SNOWY_WORLD.comment=让整个世界都被雪覆盖.
+
+option.SHOW_LIGHT_LEVEL=光照度显示
+option.SHOW_LIGHT_LEVEL.comment=在主世界: 黄色表示怪物可以在夜晚生成, 红色表示怪物随时可以生成;. 在下界和末地: 黄色表示某些怪物可以生成, 红色表示所有怪物都可以生成. §e[*]§r禁用平滑照明以获得精确的结果. 
+value.SHOW_LIGHT_LEVEL.0=关
+value.SHOW_LIGHT_LEVEL.1=手持蜘蛛眼
+value.SHOW_LIGHT_LEVEL.2=手持光源
+value.SHOW_LIGHT_LEVEL.3=始终
+
+option.MINIMUM_LIGHT_MODE=洞穴光照
+option.MINIMUM_LIGHT_MODE.comment=为没有天光的区域添加额外照明. §a[+]§r “默认”选项根据视频设置中的“亮度”滑块确定照明.
+value.MINIMUM_LIGHT_MODE.0=非常暗
+value.MINIMUM_LIGHT_MODE.1=暗
+value.MINIMUM_LIGHT_MODE.2=默认 §a[+]§r
+value.MINIMUM_LIGHT_MODE.3=亮
+value.MINIMUM_LIGHT_MODE.4=非常亮
+
+option.GENERATED_NORMALS=生成法线
+option.GENERATED_NORMALS.comment=为曲面添加自动生成的凹凸细节. §e[*]§r 资源包支持必须设置为集成PBR+.
+
+option.COATED_TEXTURES=涂层纹理
+option.COATED_TEXTURES.comment=将自动生成的噪点添加到纹理. §e[*]§r 资源包支持必须设置为集成PBR+.
+
+option.GLOWING_ORES=发光矿石
+option.GLOWING_ORES.comment=Adds emission to ores. §e[*]§r 资源包支持必须设置为集成PBR+.
+value.GLOWING_ORES.0=关
+value.GLOWING_ORES.1=主世界
+value.GLOWING_ORES.2=主世界及下界
+
+option.EMISSIVE_REDSTONE_BLOCK=发光红石块
+option.EMISSIVE_REDSTONE_BLOCK.comment=将发光添加到红石块. §e[*]§r 资源包支持必须设置为集成PBR+.
+
+option.NORMAL_MAP_STRENGTH=法线贴图强度
+option.NORMAL_MAP_STRENGTH.comment=调整表面凹凸细节的强度. §e[*]§r 资源包支持必须设置为SEUSPBR或labPBR.
+
+option.CUSTOM_EMISSION_INTENSITY=自定义发光强度
+option.CUSTOM_EMISSION_INTENSITY.comment=调整发光曲面的强度. §e[*]§r 资源包支持必须设置为SEUSPBR或labPBR.
+
+option.HELD_LIGHTING_MODE=动态光源
+option.HELD_LIGHTING_MODE.comment=允许手持光源向场景投射光线.
+value.HELD_LIGHTING_MODE.0=关
+value.HELD_LIGHTING_MODE.1=不明显的
+value.HELD_LIGHTING_MODE.2=默认
+
+option.BLOCKLIGHT_COLOR_MODE=方块灯光颜色
+option.BLOCKLIGHT_COLOR_MODE.comment=确定从方块光源投射的灯光的颜色.
+value.BLOCKLIGHT_COLOR_MODE.9=冷色
+value.BLOCKLIGHT_COLOR_MODE.10=自然
+value.BLOCKLIGHT_COLOR_MODE.11=暖色
+
+option.NO_WAVING_INDOORS=封闭区域无摆动
+option.NO_WAVING_INDOORS.comment=防止方块在封闭区域使用天光波动. §c[-]§r 可能会导致某些资源包模型出现轻微问题.
+
+option.WAVING_FOLIAGE=植株波动
+option.WAVING_FOLIAGE.comment=向植株添加运动以模拟风.
+
+option.WAVING_LEAVES=树叶波动
+option.WAVING_LEAVES.comment=向树叶添加运动以模拟风.
+
+option.WAVING_WATER_VERTEX=水波动高度
+option.WAVING_WATER_VERTEX.comment=向水位置添加运动以模拟风.
+
+option.WORLD_OUTLINE=轮廓世界
+option.WORLD_OUTLINE.comment=在方块周围添加轮廓.
+
+option.RAIN_PUDDLES=雨水坑
+option.RAIN_PUDDLES.comment=下雨时为地形增加水坑. §e[*]§r 资源包支持选项必须设置为除Basic以外的任何值. §c[-]§r 雨水坑会严重影响性能.
+value.RAIN_PUDDLES.0=关
+value.RAIN_PUDDLES.1=开-水坑
+value.RAIN_PUDDLES.2=开-全覆盖
+
+option.UNDERWATER_DISTORTION=水下失真
+option.UNDERWATER_DISTORTION.comment=当相机在水中时, 为屏幕添加细微的折射.
+
+option.SELECTION_OUTLINE=选取轮廓
+option.SELECTION_OUTLINE.comment=确定所选择方块轮廓的颜色.
+value.SELECTION_OUTLINE.0=默认
+value.SELECTION_OUTLINE.1=彩色
+value.SELECTION_OUTLINE.2=白色
+value.SELECTION_OUTLINE.3=红色
+value.SELECTION_OUTLINE.4=绿色
+value.SELECTION_OUTLINE.5=蓝色
+value.SELECTION_OUTLINE.6=黄色
+value.SELECTION_OUTLINE.7=青色
+value.SELECTION_OUTLINE.8=品红色
